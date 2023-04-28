@@ -1,1 +1,1 @@
-# frontend-mentor-qr-code-componenet
+# frontend-mentor-qr-code-component
