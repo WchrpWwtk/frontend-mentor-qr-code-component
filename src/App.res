@@ -5,10 +5,10 @@ let make = () => {
   <>
     <div>
       <a href="https://vitejs.dev" target="_blank">
-        <img src="../public/vite.svg" className="logo" alt="Vite logo" />
+        <img src="../public/svg/vite.svg" className="logo" alt="Vite logo" />
       </a>
       <a href="https://react.dev" target="_blank">
-        <img src="/src/assets/react.svg" className="logo react" alt="React logo" />
+        <img src="../public/svg/react.svg" className="logo react" alt="React logo" />
       </a>
     </div>
     <h1> {"Vite + React"->React.string} </h1>
