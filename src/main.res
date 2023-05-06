@@ -2,8 +2,8 @@
 
 switch ReactDOM.querySelector("#root") {
 | Some(rootElement) => {
-    let root = ReactDOM.Client.createRoot(rootElement)
-    ReactDOM.Client.Root.render(root, <App />)
+    let root = rootElement->ReactDOM.Client.createRoot
+    root->ReactDOM.Client.Root.render(<App />)
   }
 | None => ()
 }
