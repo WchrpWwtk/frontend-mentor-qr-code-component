@@ -4,15 +4,17 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "vite build -w",
+    "start": "rescript build -w",
     "server": "vite",
-    "build": "tsc && vite build",
+    "build": "rescript build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@rescript/react": "^0.11.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "rescript": "^10.1.4",
     "sass": "^1.62.1",
     "scss": "^0.2.4"
   },
